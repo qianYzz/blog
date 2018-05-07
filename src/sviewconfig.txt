@@ -1,0 +1,18 @@
+jdbcUrl = jdbc:mysql://localhost:3306/demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#jdbcUrl = jdbc:mysql://localhost:3306/sview?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#jdbcUrl = jdbc:mysql://139.129.229.148:3306/sview?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#jdbcUrl = jdbc:mysql://10.0.81.183:3306/sview?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password = hoteam
+devMode = true
+sqlType = mysql
+# 微信服务器回调所用的 token
+token=weixin2
+
+# 测试用的账号
+appId=wx57eaf7518b0de549
+appSecret=d4624c36b6795d1d99dcf0547af5443d
+
+#是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
+#encryptMessage=true
+#encodingAesKey=yourEncodingAesKey
